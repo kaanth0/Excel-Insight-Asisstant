@@ -26,38 +26,12 @@ cd Excel-Insight-Asisstant
 - Sonuçlar anında alt kısımda görüntülenecek
 Not: Proje tamamen frontend’de çalışır. Sunucu, Node.js veya ek bir altyapı gerektirmez.
 
-
-📁 Proje Yapısı
-excel-insight-assistant/
-├── index.html         # Bootstrap 5 tabanlı ana sayfa
-├── main.js            # Uygulama kontrol akışı (file input + soru işleme)
-├── analyzeData.js     # Toplam, grup bazlı toplam, en çok/değerli analiz fonksiyonları
-├── questionParser.js  # Soruyu okuyup hangi analiz fonksiyonunun çalışacağını seçer
-├── style.css          # (İsteğe bağlı) ek özel stiller
-├── sample.xlsx        # Test ve demo için örnek Excel dosyası
-└── example-questions.txt # Deneme sorularının listesi
-
-
-
 🧪 Deneme Soruları
 example-questions.txt içinde deneyebileceğiniz örnekler:
 Toplam satış tutarı nedir?
 En çok satılan ürün hangisi?
 En çok satış yapan temsilci kim?
 2025-06-02 tarihinde ne kadar satış olmuş?
-
-
-
-📈 Yol Haritası
-| Sürüm | İçerik | 
-| v0.1 | Excel yükleme, 4 temel doğal dil analiz sorusu, responsive UI | 
-| v0.2 | Ürün/temsilci bazlı detaylı raporlar, filtreleme, ortalama hesaplama | 
-| v0.3 | Chart.js ile çubuk/çizgi grafikler, CSV desteği | 
-| v0.4 | AI entegrasyonu (OpenAI GPT / Hugging Face), gelişmiş doğal dil işleme | 
-| v1.0 | PDF/Excel dışa aktarım, chatbot arayüzü, plugin/SDK sürümleri | 
-
-
-Her sürümde CHANGELOG.md güncellenecek, kullanıcı talepleri ve katkılar önceliklendirilecek.
 
 🤝 Katkıda Bulunmak
 - Depoyu fork’layın
@@ -67,8 +41,8 @@ Her sürümde CHANGELOG.md güncellenecek, kullanıcı talepleri ve katkılar ö
 - Pull request açın
 Tüm fikir ve katkılara açığız. Birlikte daha güçlü bir çözüm inşa edelim!
 
-📜 Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır. İstediğiniz gibi kullanabilir, değiştirebilir ve dağıtabilirsiniz.
+📜 Sürümler
+Proje şuanda başlangıç aşamasındadır. İlerleyen sürümleri beklemede kalınız.
 
 Excel Insight Assistant, verinizi konuşturan, genişlemeye her an hazır bir analiz yardımcınız!
 Yıldızlamayı unutmayın ⭐️
